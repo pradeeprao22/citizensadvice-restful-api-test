@@ -27,7 +27,7 @@ class GroupsController < ApplicationController
            if @user_group.save!
              render json: {
                 user_group: @user_group, 
-                message: "used is assigned to group"
+                message: "user is assigned to group"
             }, status: :created
            else 
              render json: @user_group.errors, status: :unprocessable_entity
