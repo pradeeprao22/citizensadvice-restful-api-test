@@ -28,5 +28,5 @@ POST localhost:3000/users
 
 *Note: Validations & tests are not covered in this api
 **Please find testing screenshots in the folder
-***Totel Time: 1:50 MIN + 30 MIN (For testing api)
+***Totel Time: 1HR 50MIN + 30MIN (For testing api)
 
