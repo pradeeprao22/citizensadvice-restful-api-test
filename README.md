@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Restful API Citizens Advise Test.
 
-Things you may want to cover:
+## Models List
+User
+Group
+UsersGroup
 
-* Ruby version
+## Routes 
+user assign to group route
+POST localhost:3000/user/assign
 
-* System dependencies
+groups create route
+POST localhost:3000/groups
 
-* Configuration
+user login route
+POST localhost:3000/auth/login
 
-* Database creation
+user create route
+POST localhost:3000/users
 
-* Database initialization
+## Running Instructions
+1. bundle install
+2. rails db:create
+3. rails db:migrate
+4. rails s
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+*Note: Validations & tests are not covered in this api
+**Totel Time: 1:50 MIN + 30 MIN (For testing api)
