@@ -3,8 +3,8 @@
 Restful API Citizens Advise Test.
 
 ## Models List
-User
-Group
+User,
+Group,
 UsersGroup
 
 ## Routes 
@@ -27,4 +27,6 @@ POST localhost:3000/users
 4. rails s
 
 *Note: Validations & tests are not covered in this api
-**Totel Time: 1:50 MIN + 30 MIN (For testing api)
+**Please find testing screenshots in the folder
+***Totel Time: 1:50 MIN + 30 MIN (For testing api)
+
